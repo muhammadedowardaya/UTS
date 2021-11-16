@@ -1,0 +1,60 @@
+html {
+  position: relative;
+}
+
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #aaa;
+}
+
+section#profile {
+  background-color: white;
+}
+section#profile,
+section#about {
+  min-height: 100vh;
+}
+
+hr {
+  width: 250px;
+  border-top: 4px solid #999;
+}
+
+.tengah {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  min-height: 600px;
+}
+
+#about,
+#product {
+  background-color: #eaeaea;
+}
+
+.contact {
+  min-height: 800px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+footer p {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+footer p i {
+  color: salmon;
+}
